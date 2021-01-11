@@ -29,6 +29,8 @@ $wordlistA = (@{
     "Z" = "Zhush"
 }).GetEnumerator() | Sort-Object -Property Name
 
+
+
 $wordlistB = (@{
     "A" = "Aisle", "Are"
     "B" = "Dellium"
@@ -57,6 +59,8 @@ $wordlistB = (@{
     "Y" = "Itri yum", "You"
     "Z" = "Zhush"
 }).GetEnumerator() | Sort-Object -Property Name
+
+
 
 Add-Type -AssemblyName System.speech
 $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
